@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript</title>
+  </head>
+  <body>
+    <script>
+              //comparison operation
+
+              let a=30;
+
+              let b="30";
+
+
+
+
+
+
+
+              //  equal value
+          //    console.log("a==b",a==b)
+              //equal type and equal value
+            //  console.log("a===b",a===b)
+
+
+
+              //not   eqaul valuee
+
+
+              console.log("a!=b", a!=b);
+              console.log("a!==b", a!==b);
+
+
+            //  let x=10;
+              //let y=20;
+              //console.log("x>y",x>y)
+              //console.log("x<y",x<y)
+
+
+              let x=18;
+              console.log("x>18",x>=18)
+              console.log("x<18",x<18)
+
+
+
+
+              //concat string
+
+
+              let text1 ="A quick brown fox";
+              let text2="jumps over a lazy dog";
+              let text3="."
+              let text4=30;
+              let text5="times jumps !!" ;
+
+
+              const thridstring=text1 + "" + text2 + text3 + text4 + text5;
+              console.log(thridstring);
+
+
+
+
+              console.log("a>b","a">"b");
+              console.log("A<B","A"<"B");
+
+
+
+
+              //converting  string to number
+
+              const string1="ABC";
+              const string2="55";
+
+
+              const changestring1Num = Number(string1);
+              const changestringNum2 = Number(string2);
+
+
+              console.log(string1,  changestring1Num );
+              console.log(
+                  string2,
+                  typeof string2,
+                  changestringNum2 ,
+                  typeof changestringNum2
+              );
+
+
+              let email= null;
+              let password;
+              if (!email) {
+                  console.log("enter a email to continue");
+
+              }
+              console.log("!email", !email);
+              console.log("!password", !password);
+
+
+
+              //logical and
+              let student1=21;
+              let student2=17;
+
+
+              console.log("U can enter a club",student1>=18 && student2>=18);
+
+      //logical orr
+      console.log("U can enter a club if ",student1>=18 || student2>=18);
+
+
+      //object-> arrayy
+
+
+      let carmodel1= {
+          name: "mercedez",
+          lastname:"benz",
+          madeyear:2000,
+          country:"USA",
+          kilometerrun:10000,
+          color:"white",
+        issold:false,
+    address: {
+      city:"los anglos",
+        postalCode: "999",
+        ownerdetail: {
+            owner:"jungey",
+          phoneNum: 999,
+
+      },
+      },
+      };
+      console.log(carmodel1.name);
+      console.log(carmodel1["name"]);
+      console.log(carmodel1.address. ownerdetail.owner);
+      console.log(carmodel1["address"]["ownerdetail"]["owner"]);
+      
+      
+      
+     //array
+
+
+     const students=["ram","shyam"]
+     console.log(students.length);
+
+
+    </script>
+  </body>
+</html>
